@@ -1,0 +1,24 @@
+{
+  "name": "CameraProblem",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "cordova-ios": "^4.5.5",
+    "cordova-plugin-camera": "^4.0.3",
+    "cordova-plugin-file": "^6.0.1",
+    "cordova-plugin-whitelist": "^1.2.2"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-camera": {
+        "CAMERA_USAGE_DESCRIPTION": "asdf",
+        "PHOTOLIBRARY_USAGE_DESCRIPTION": "asdf"
+      },
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-file": {}
+    },
+    "platforms": [
+      "ios"
+    ]
+  }
+}
